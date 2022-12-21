@@ -1,0 +1,10 @@
+/* Utils */
+
+.container-big {
+	max-width: 1000px;
+	padding: 20px;
+	margin: 0 auto;
+
+	/* debug */
+	border: 2px dashed blue;
+}

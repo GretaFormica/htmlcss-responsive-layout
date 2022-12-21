@@ -1,0 +1,53 @@
+/* STYLE */
+
+:root{
+    --head-color: #0084fd;
+    --main-color: #9792e4;
+}
+
+/* HEADER */
+
+header{
+    background-color: var(--head-color);
+    height: 70px;
+    color: white;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.links{
+    display: flex;
+    gap: 20px;
+}
+
+/* MAIN */
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+
+    /* debug */
+    border: 1px solid black;
+}
+
+.col-l{
+    width: calc(100% / 3 * 2 - 20px);
+
+    /* debug */
+    border: 1px solid red;
+    height: 50px;
+}
+
+.col{
+    width: calc(100% / 3 - 20px);
+
+    /* debug */
+    border: 1px solid red;
+    height: 50px;
+}
