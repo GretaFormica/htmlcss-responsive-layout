@@ -200,3 +200,18 @@ h6{
     font-size: 2rem;
     color: var(--main-color);
 }
+
+/* GET STARTED */
+
+.row-started{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    text-align: center;
+    align-items: center;
+}
+
+h7{
+    font-size: 3rem;
+    color: #fdc15f;
+}
