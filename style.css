@@ -215,3 +215,19 @@ h7{
     font-size: 3rem;
     color: #fdc15f;
 }
+
+/* FOOTER */
+
+footer{
+    background-color: #333333;
+    color: white;
+}
+
+.p-footer{
+    text-align: center;
+}
+
+.p-footer:first-child{
+    margin-bottom: 50px;
+
+}
