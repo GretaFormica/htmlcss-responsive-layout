@@ -11,6 +11,9 @@ header{
     background-color: var(--head-color);
     height: 70px;
     color: white;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
 }
 
 .nav{
@@ -26,6 +29,10 @@ header{
 
 
 /* MAIN */
+
+main{
+    padding-top: 70px;
+}
 
 /* DEMO */
 

@@ -20,7 +20,7 @@ body{
 	margin: 0 auto;
 
 	/* debug */
-	border: 2px dashed blue;
+	/* border: 2px dashed blue; */
 }
 
 .container-small{
@@ -29,7 +29,7 @@ body{
 	margin: 0 auto;
 
 	/* debug */
-	border: 2px dashed red;
+	/* border: 2px dashed red; */
 }
 
 /* BUTTON */
