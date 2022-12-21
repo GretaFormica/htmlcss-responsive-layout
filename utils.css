@@ -1,5 +1,19 @@
 /* Utils */
 
+/* ROOT */
+:root{
+    --head-color: #0084fd;
+    --main-color: #9792e4;
+}
+
+/* FONT */
+
+body{
+	font-family: 'Hanken Grotesk', sans-serif;
+}
+
+/* CONTAINER */
+
 .container-big {
 	max-width: 1000px;
 	padding: 20px;
@@ -7,4 +21,25 @@
 
 	/* debug */
 	border: 2px dashed blue;
+}
+
+.container-small{
+	max-width: 800px;
+	padding: 20px;
+	margin: 0 auto;
+
+	/* debug */
+	border: 2px dashed blue;
+}
+
+/* BUTTON */
+
+button{
+	width: fit-content;
+	padding: 5px 10px;
+
+	background-color: var(--head-color);
+	color: white;
+	border: 1px solid white;
+	border-radius: 20px;
 }

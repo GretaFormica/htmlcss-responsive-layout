@@ -24,30 +24,47 @@ header{
     gap: 20px;
 }
 
+
 /* MAIN */
+
+/* DEMO */
 
 .row{
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
     justify-content: space-between;
-
-    /* debug */
-    border: 1px solid black;
-}
-
-.col-l{
-    width: calc(100% / 3 * 2 - 20px);
-
-    /* debug */
-    border: 1px solid red;
-    height: 50px;
 }
 
 .col{
     width: calc(100% / 3 - 20px);
+    background-color: #b5ddff;
+    padding: 10px;
+    text-align: center;
+    border-radius: 20px;
+}
 
-    /* debug */
-    border: 1px solid red;
-    height: 50px;
+.col.large{
+    width: calc(100% / 3 * 2 - 20px);
+    padding-bottom: 0;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.text{
+    line-height: 1.5em;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+h3{
+    color: var(--head-color);
+    font-size: 1.6rem;
+}
+
+i{
+    color: var(--head-color);
+    font-size: 4.5rem;
 }
