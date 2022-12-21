@@ -24,12 +24,12 @@ body{
 }
 
 .container-small{
-	max-width: 800px;
+	max-width: 700px;
 	padding: 20px;
 	margin: 0 auto;
 
 	/* debug */
-	border: 2px dashed blue;
+	border: 2px dashed red;
 }
 
 /* BUTTON */
@@ -42,4 +42,11 @@ button{
 	color: white;
 	border: 1px solid white;
 	border-radius: 20px;
+}
+
+/* BG-COLOR */
+
+.bg-purple{
+	background-color: var(--main-color);
+	color: white;
 }

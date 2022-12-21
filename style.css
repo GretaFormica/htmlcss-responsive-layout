@@ -64,7 +64,46 @@ h3{
     font-size: 1.6rem;
 }
 
-i{
+.col>i{
     color: var(--head-color);
     font-size: 4.5rem;
 }
+
+/* PLANNING */
+
+.row-planning{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+}
+
+.col-planning{
+    width: 50%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.col-planning.img{
+    justify-content: flex-end;
+}
+
+h2{
+    font-size: 1.6rem;
+}
+
+.inside-col-white{
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+    padding: 30px;
+    text-align: center;
+    justify-items: baseline;
+}
+
+.inside-col-white>img{
+    width: 70%;
+}
+
