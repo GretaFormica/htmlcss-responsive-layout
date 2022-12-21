@@ -137,3 +137,32 @@ h1{
     text-align: center;
     margin-bottom: 20px;
 }
+
+/* BENEFITS */
+
+h4{
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.col-ben{
+    background-color: white;
+    width: calc(100% / 3 - 20px);
+    color: black;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 20px;
+}
+
+h5{
+    color: var(--main-color);
+    font-size: 3rem;
+}
+
+.col-ben>h3{
+    color: var(--main-color);
+}
