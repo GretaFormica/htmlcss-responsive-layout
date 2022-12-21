@@ -107,3 +107,33 @@ h2{
     width: 70%;
 }
 
+/* PARTNERS */
+
+.card{
+    background-color: var(--main-color);
+    color: white;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 20px;
+}
+
+.square{
+    min-width: 100px;
+    min-height: 100px;
+    background: url("./img/testimonial1.jpg") 50% 50% no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+}
+
+h1{
+    font-size: 2rem;
+    color: var(--main-color);
+}
+
+.testimonials-text>*{
+    text-align: center;
+    margin-bottom: 20px;
+}
