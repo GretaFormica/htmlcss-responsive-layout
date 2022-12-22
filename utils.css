@@ -57,3 +57,7 @@ button{
 	margin-bottom: 50px;
 	margin-top: 30px;
 }
+
+.menu{
+	display: none;
+}

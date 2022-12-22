@@ -1,0 +1,28 @@
+/* TABLET */
+
+@media screen and (max-width: 768px){
+    .links{
+        display: none;
+    }
+
+    .menu{
+        display: block;
+    }
+
+    .col.large{
+        display: inline-block;
+    }
+
+    .row-planning{
+        display: inline-block;
+    }
+
+    .col-planning{
+        width: 100%;
+    }
+
+    .col-ben{
+        width: calc(50% - 10px);
+    }
+
+}
