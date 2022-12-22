@@ -37,11 +37,29 @@ body{
 button{
 	width: fit-content;
 	padding: 5px 10px;
+	border: none;
+	border-radius: 20px;
+}
 
+.bt-white{
+	background-color: white;
+	color: black;
+}
+
+.bt-blue{
 	background-color: var(--head-color);
 	color: white;
-	border: 1px solid white;
-	border-radius: 20px;
+}
+
+.bt-purple{
+	background-color: var(--main-color);
+	color: white;
+}
+
+.bt-footer{
+	background-color: white;
+	color: var(--main-color);
+	padding: 20px 30px;
 }
 
 /* BG-COLOR */
@@ -60,4 +78,14 @@ button{
 
 .menu{
 	display: none;
+}
+
+.fa-arrow-down{
+	background-color: var(--main-color);
+	padding: 10px;
+	border-radius: 50%;
+}
+
+html{
+    scroll-behavior: smooth;
 }
