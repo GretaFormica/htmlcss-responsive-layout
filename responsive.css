@@ -26,3 +26,35 @@
     }
 
 }
+
+/* MOBILE */
+
+@media screen and (max-width: 480px){
+    .row{
+        flex-wrap: wrap;
+    }
+
+    .col{
+        width: 100%;
+    }
+
+    .col.large{
+        width: 100%;
+    }
+
+    .card{
+        flex-direction: column;
+    }
+
+    .col-ben{
+        width: 100%;
+    }
+
+    .row-about{
+        flex-wrap: wrap;
+    }
+
+    .col-about{
+        width: 100%;
+    }
+}
