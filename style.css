@@ -127,12 +127,11 @@ h2{
     border-radius: 20px;
 }
 
-.square{
-    min-width: 100px;
-    min-height: 100px;
-    background: url("./img/testimonial1.jpg") 50% 50% no-repeat;
-    background-size: cover;
+.card>img{
     border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
 }
 
 h1{
